@@ -6,4 +6,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/Roykesydon/Test.git master:gh-pages
+git push -f https://github.com/Roykesydon/CSS-Playground.git master:gh-pages
