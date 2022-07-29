@@ -2,10 +2,6 @@
   <div class="background">
     <div class="content">
       <div class="glitch" data-text="Roykesydon">Roykesydon</div>
-      <!-- <div class="glitch">Roykesydon</div>
-      <div class="glitch">Roykesydon</div>
-      <div class="glitch">Roykesydon</div>
-      <div class="glitch">Roykesydon</div> -->
     </div>
   </div>
 </template>
@@ -27,22 +23,17 @@ $update-steps: 20;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(20, 20, 20);
   font-family: "Varela", sans-serif;
+  background-color: rgb(20, 20, 20);
 }
 
 .content {
   position: relative;
-
-  width: 100%;
-  height: 30vh;
-
-  background-color: rgb(20, 20, 20);
 }
 
 .glitch {
   transform: scale(0.5);
-  position: absolute;
+  position: relative;
 
   width: 100%;
   height: 30vh;
@@ -105,13 +96,13 @@ $update-steps: 20;
   background: rgb(20, 20, 20);
   animation: noise 5s infinite linear alternate-reverse;
 }
-$steps: 20;
+
 @keyframes shadow {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
-      $pink: max(random(7) - 2, 0) / 100;
-      $blue: max(random(7) - 2, 0) / 100 * -1;
+      $pink: max(random(5) - 2, 0) / 100;
+      $blue: max(random(5) - 2, 0) / 100 * -1;
 
       text-shadow: $pink + 0em 0em 0em rgba(247, 0, 255, 0.82),
         $blue + 0em 0em 0em rgba(64, 241, 255, 0.82);

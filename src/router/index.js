@@ -25,6 +25,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/GlitchView.vue"),
   },
+  {
+    path: "/scan-text",
+    name: "scan-text",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/ScanTextView.vue"),
+  },
 ];
 
 const router = new VueRouter({

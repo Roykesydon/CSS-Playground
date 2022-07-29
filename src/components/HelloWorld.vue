@@ -32,6 +32,11 @@ export default {
         route: "/glitch",
         src: require("@/assets/cover/glitch.png"),
       },
+      {
+        name: "Scan Text",
+        route: "/scan-text",
+        src: require("@/assets/cover/scan-text.png"),
+      },
     ],
   }),
   methods: {
@@ -42,7 +47,7 @@ export default {
 };
 </script>
 
-<style scope>
+<style>
 .pointer {
   cursor: pointer;
 }
