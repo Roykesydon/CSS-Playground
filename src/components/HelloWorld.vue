@@ -37,6 +37,11 @@ export default {
         route: "/scan-text",
         src: require("@/assets/cover/scan-text.png"),
       },
+      {
+        name: "Spark",
+        route: "/spark",
+        src: require("@/assets/cover/spark.png"),
+      },
     ],
   }),
   methods: {

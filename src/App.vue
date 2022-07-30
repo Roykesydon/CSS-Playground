@@ -24,7 +24,7 @@
       </v-btn> -->
     </v-app-bar>
 
-    <v-main>
+    <v-main style="overflow: hidden">
       <router-view />
     </v-main>
   </v-app>
@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style scope>
+<style scoped>
 .logo {
   cursor: pointer;
 }

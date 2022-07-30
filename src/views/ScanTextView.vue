@@ -31,7 +31,7 @@ export default {
 };
 </script>
 
-<style scope lang="scss">
+<style scoped lang="scss">
 .background {
   height: 100%;
   width: 100%;

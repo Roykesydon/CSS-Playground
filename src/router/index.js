@@ -31,6 +31,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/ScanTextView.vue"),
   },
+  {
+    path: "/spark",
+    name: "spark",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/SparkView.vue"),
+  },
 ];
 
 const router = new VueRouter({
