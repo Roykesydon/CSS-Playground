@@ -52,6 +52,11 @@ export default {
         route: "/counter",
         src: require("@/assets/cover/counter.png"),
       },
+      {
+        name: "Scroll Show",
+        route: "/scroll-show",
+        src: require("@/assets/cover/scroll-show.png"),
+      },
     ],
   }),
   methods: {

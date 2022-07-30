@@ -49,6 +49,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/CounterView.vue"),
   },
+  {
+    path: "/scroll-show",
+    name: "scroll-show",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/ScrollShowView.vue"),
+  },
 ];
 
 const router = new VueRouter({

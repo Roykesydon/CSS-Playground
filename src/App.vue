@@ -24,7 +24,7 @@
       </v-btn> -->
     </v-app-bar>
 
-    <v-main style="overflow: hidden">
+    <v-main>
       <router-view />
     </v-main>
   </v-app>
