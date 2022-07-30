@@ -47,6 +47,11 @@ export default {
         route: "/flip-card",
         src: require("@/assets/cover/flip-card.png"),
       },
+      {
+        name: "Counter",
+        route: "/counter",
+        src: require("@/assets/cover/counter.png"),
+      },
     ],
   }),
   methods: {

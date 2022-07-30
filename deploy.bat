@@ -7,3 +7,5 @@ git add -A
 git commit -m 'deploy'
 
 git push -f https://github.com/Roykesydon/CSS-Playground.git master:gh-pages
+
+cd ..

@@ -43,6 +43,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/FlipCardView.vue"),
   },
+  {
+    path: "/counter",
+    name: "counter",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/CounterView.vue"),
+  },
 ];
 
 const router = new VueRouter({
