@@ -194,7 +194,7 @@ export default {
   box-shadow: (0px 0px 7px rgba(255, 195, 45, 1)),
     (0px 0px 7px rgba(255, 195, 45, 1)) inset;
 
-  transform: rotateX(-30deg) rotateY(-20deg);
+  transform: rotateX(-30deg) rotateY(-20deg) scale(1.5);
 }
 
 @keyframes flickerAnimation {
