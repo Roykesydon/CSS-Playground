@@ -148,6 +148,7 @@ export default {
   margin: 0;
   padding: 0;
   height: 1.3em;
+  filter: drop-shadow(0px 0px 3px rgba(255, 195, 45, 1));
   color: rgba(255, 195, 45, 1);
   font-weight: bold;
   font-family: "Noto Serif TC", serif;
@@ -172,7 +173,8 @@ export default {
   height: 7em;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  // background-color: white;
+  filter: drop-shadow(0px 0px 7px rgba(255, 0, 0, 0.7));
+
   animation: flickerAnimation 2.5s infinite;
 }
 
@@ -188,6 +190,10 @@ export default {
   border-left: 0.5em rgba(255, 195, 45, 1) solid;
   border-right: 0.5em rgba(255, 195, 45, 1) solid;
   border-bottom: 0.5em rgba(255, 195, 45, 1) solid;
+
+  box-shadow: (0px 0px 7px rgba(255, 195, 45, 1)),
+    (0px 0px 7px rgba(255, 195, 45, 1)) inset;
+
   transform: rotateX(-30deg) rotateY(-20deg);
 }
 
@@ -228,6 +234,7 @@ export default {
   .digit#{$j} {
     display: inline-block;
     position: relative;
+    filter: drop-shadow(0px 0px 7px rgba(255, 0, 0, 0.7));
     width: 4em;
     height: 7em;
   }
