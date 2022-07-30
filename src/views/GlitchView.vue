@@ -50,10 +50,10 @@ $update-steps: 20;
 @keyframes noise-2 {
   @for $i from 0 through $update-steps {
     #{percentage($i*(1/$update-steps))} {
-      $pos: random(100) / 100 * 100%;
+      $pos: random(100) / 100;
       $end: min($pos + random(10) / 100, 1) * 100%;
 
-      clip-path: polygon(0% $pos, 900% $pos, 900% $end, 0% $end);
+      clip-path: polygon(0% $pos * 100%, 900% $pos * 100%, 900% $end, 0% $end);
     }
   }
 }
@@ -75,10 +75,10 @@ $update-steps: 20;
 @keyframes noise {
   @for $i from 0 through $update-steps {
     #{percentage($i*(1/$update-steps))} {
-      $pos: random(100) / 100 * 100%;
+      $pos: random(100) / 100;
       $end: min($pos + random(10) / 100, 1) * 100%;
 
-      clip-path: polygon(0% $pos, 900% $pos, 900% $end, 0% $end);
+      clip-path: polygon(0% $pos * 100%, 900% $pos * 100%, 900% $end, 0% $end);
     }
   }
 }
