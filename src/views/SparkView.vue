@@ -76,6 +76,7 @@ $spark-count: 500;
 .spark {
   transform: scale(1);
   position: relative;
+  top: 150%;
 
   height: 30vh;
 
