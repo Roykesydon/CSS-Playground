@@ -37,6 +37,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/SparkView.vue"),
   },
+  {
+    path: "/flip-card",
+    name: "flip-card",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/FlipCardView.vue"),
+  },
 ];
 
 const router = new VueRouter({

@@ -42,6 +42,11 @@ export default {
         route: "/spark",
         src: require("@/assets/cover/spark.png"),
       },
+      {
+        name: "Flip Card",
+        route: "/flip-card",
+        src: require("@/assets/cover/flip-card.png"),
+      },
     ],
   }),
   methods: {
