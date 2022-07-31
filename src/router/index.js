@@ -61,6 +61,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/ReflectedNeonView.vue"),
   },
+  {
+    path: "/button-border",
+    name: "button-border",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/ButtonBorderView.vue"),
+  },
 ];
 
 const router = new VueRouter({

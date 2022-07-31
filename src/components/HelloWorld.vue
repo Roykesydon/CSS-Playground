@@ -62,6 +62,11 @@ export default {
         route: "/reflected-neon",
         src: require("@/assets/cover/reflected-neon.png"),
       },
+      {
+        name: "Button Border",
+        route: "/button-border",
+        src: require("@/assets/cover/button-border.png"),
+      },
     ],
   }),
   methods: {
