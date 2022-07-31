@@ -125,18 +125,28 @@ $update-steps: 20;
 
 @keyframes float-from-right {
   0% {
+    opacity: 0;
     left: 100em;
   }
+  60% {
+    opacity: 0;
+  }
   100% {
+    opacity: 1;
     left: 0%;
   }
 }
 
 @keyframes float-from-left {
   0% {
+    opacity: 0;
     right: 100em;
   }
+  60% {
+    opacity: 0;
+  }
   100% {
+    opacity: 1;
     right: 0%;
   }
 }

@@ -55,6 +55,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/ScrollShowView.vue"),
   },
+  {
+    path: "/reflected-neon",
+    name: "reflected-neon",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/ReflectedNeonView.vue"),
+  },
 ];
 
 const router = new VueRouter({

@@ -57,6 +57,11 @@ export default {
         route: "/scroll-show",
         src: require("@/assets/cover/scroll-show.png"),
       },
+      {
+        name: "Reflected Neon",
+        route: "/reflected-neon",
+        src: require("@/assets/cover/reflected-neon.png"),
+      },
     ],
   }),
   methods: {
